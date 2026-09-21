@@ -1,7 +1,7 @@
 # Temporal Evaluative Association Modeling for Japanese Hotel Reviews with Counterfactual Validation (AMGT)
 
 ## Overview
-This project implements an **Aspect-based Sentiment Evaluation System** for Japanese hotel reviews using a novel **AMGT (Asymmetric Multi-Granularity Tokenization)** approach. The goal is to accurately predict sentiment across 8 distinct hotel aspects (e.g., room, hospitality, location, cleanliness) by fusing multiple levels of linguistic representation.
+This project implements an **Aspect-based Sentiment Evaluation System** for Japanese hotel reviews using a novel **AMGT (Adaptive Multi-Granularity Transformer )** approach. The goal is to accurately predict sentiment across 8 distinct hotel aspects (e.g., room, hospitality, location, cleanliness) by fusing multiple levels of linguistic representation.
 
 ## Architecture & AMGT Model
 The core of this project is the `AMGTForAspectEvaluation` model which employs a **tri-granular tokenization strategy** specifically designed for the complexities of the Japanese language:
